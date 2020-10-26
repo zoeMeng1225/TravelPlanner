@@ -1,0 +1,119 @@
+.registerWrapper{
+  width: 100%;
+  height: 100vh;
+}
+
+.ant-input-suffix{
+  width: 0;
+  background: white;
+  margin-right: .3em;
+  border-radius: 10px;
+}
+.rigiSpan{
+  line-height: 3;
+  color:#545656;
+}
+.ant-input{
+  background-color:rgb(236, 245, 249);
+  border-radius: 8px;
+}
+
+.ant-input-affix-wrapper{
+  background-color: rgb(236, 245, 249);
+}
+
+.registerarea{
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-image: url("../asset/image/home_pic.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.boxHeader{
+font-size: 1.6em;
+}
+
+
+.registerBox{
+width: 20em;
+border-radius: 8px;
+background: #fff;
+margin: 20% auto;
+padding: 3.5em 2em;
+box-sizing: border-box;
+position: relative;
+
+}
+
+#input1{
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+border-bottom: transparent;
+}
+
+
+#input2{
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+#input3{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.ant-form-item{
+  margin-bottom: 0;
+  border-radius: 8px;
+}
+
+.button{
+  margin-top:1em;
+}
+
+button{
+  width:100%;   
+  padding: .8em;
+  border-radius: 8px;
+  border: transparent;
+  background: #6cb5f5;
+  color: #fff;
+}
+
+.logoRight{
+  width:3em;
+  margin: 1em 0;
+}
+
+.deletePadding{
+  padding: 1em 2em;
+  background: #fff;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: .9;
+}
+
+.regiInput > .ant-input-suffix{
+  background: transparent;
+  width: 0 !important;
+}
+
+.regiInput> input {
+  height: 3em;
+}
+
+.regiForm span{
+  display: flex;
+  margin-right: 1em;
+}

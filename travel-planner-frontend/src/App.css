@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.home-header{
+padding: 1em 2em;
+background: #fff;
+height: fit-content;
+position: fixed;
+top: 0;
+width: 100%;
+opacity: .9;
+}
+
+.main-header{ 
+  height: 100%;
+}
+
+.app-logo{
+  width: 3em; 
+}
+
+#signin{
+  color:#545656;
+}
+
+.user-icon{
+width: 2.5em;
+margin-left: 1em;
+}
+
+.id-class{
+  justify-content: flex-end;
+  display: flex;
+}
+
+
+.home-body{
+  height: 100vh;
+  background-image: url("./asset/image/home_pic.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.home-detail{
+  height: 100%;
+}
+
+
+.home-search_bar{
+width: 100% !important;
+height: 4em;
+border-radius: 10px;
+font-family: 'Raleway', sans-serif;
+}
+
+.searchOptions{
+  font-size: 1.1em;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-between;
+}
+
+.searchOptions:hover {
+	width: 270px;
+	color: #0076c4;
+}
+
+.searchOptionTitle {
+  font-size: 1.3em;
+  font-weight:bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.bg-title{
+padding-left: 1px;
+font-size: 2.8em;
+font-weight: bold;
+margin-top: 20%;
+}
+
+
+.home-detail-child{
+  height: 50vh;
+}
+
+.ant-input-suffix{
+width: 5em !important;
+background: #285FC2 !important;
+margin-right: .3em;
+border-radius: 10px;
+}
+
+.ant-input-search-icon{
+width: 100%;
+margin-left: 0em;
+color: #fff;
+}
+
+.ant-input-search-icon::before{
+display: none;
+}

@@ -1,0 +1,333 @@
+.searchResult-container {
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.container {
+  padding: 1em;
+  text-align: left;
+  height: 100%;
+  position: relative;
+}
+
+.container img{
+  width: 100%;
+}
+
+.main {
+    display: flex;
+}
+
+.left-side {
+    width: 35%;
+}
+
+
+.filterContainer {
+    width: 100% !important;
+    margin:1em 0;
+    justify-content: space-between;
+}
+
+
+.result-table{
+  height: 100%;
+}
+
+.ant-pagination-next,
+.ant-pagination-prev{
+  line-height: 1;
+} 
+
+.recommend-div{
+    font-size: 1em;
+    padding:1em;
+    font-weight: bold;
+    background-color: #4188E8;
+    width: 100%;
+    color: #fff;
+    margin-top:1em;
+    border-radius: 10px;
+}
+
+.backwardButton{
+  background-color: #4188E8;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+  float: left;
+  padding: .3em 1em;
+  width: 13em;
+  margin-left: .5em;
+}
+
+.ant-modal-body{
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.ant-table-pagination-right{
+  float: left;
+}
+
+
+
+.ant-typography{
+    margin-left: 4px;
+    margin-right: 4px;
+    color:#FFD700;
+}
+
+
+button.search-route{
+    background: transparent;
+    background-color:#4188E8;
+}
+
+.search-route{
+  color: #fff;
+  position: absolute;
+  bottom: 2.2em;
+  width: fit-content;
+  right: 1em;
+}
+
+.search-route button{
+  border-radius: 8px;
+  padding: .3em 1em;
+  width: fit-content;
+  float:right;
+}
+
+
+.tabsContainer .ant-table-tbody{
+  height: 100%;
+}
+.ant-table-tbody > tr > td {
+  border-bottom: transparent !important
+}
+.ant-table.ant-table-small {
+  font-size: .8em;
+}
+.ant-table.ant-table-small {
+  font-size: .8em;
+}
+
+.ant-btn-icon-only.ant-btn-sm {
+  width: fit-content;
+  height: fit-content;
+  font-size: .6em;
+  border-radius: 2px;
+  padding: .5em;
+}
+
+.ant-tabs-content {
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+.ant-pagination.mini .ant-pagination-item {
+  min-width: fit-content;
+  height: fit-content;
+  margin: 0;
+  line-height: 22px;
+  font-size: .7em;
+}
+
+.ant-transfer-operation .ant-btn .anticon{
+  font-size: 0.7em;
+}
+
+span.ant-tag {
+  font-size: .8em;
+  border-radius: 5px;
+}
+
+.ant-pagination.mini .ant-pagination-prev, .ant-pagination.mini .ant-pagination-next{
+  min-width: 24px;
+  height: auto;
+  margin: 0;
+}
+
+.tabsContainer {
+    padding: 1em 0;
+    position: relative;
+}
+
+.filterBtn{
+  text-align: left;
+}
+
+.filterInput{
+  background: none !important;
+}
+
+.filter-child{
+  height:2.5em;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.signupLink span{
+  margin-left: .5em;
+  font-weight: 700;
+}
+
+.jsj button{
+  margin: .5em 0;
+  margin-left:.6em;
+  width: 8em;
+}
+
+.ant-modal-title{
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+
+.logButton{
+  width: 5em;
+}
+
+.ant-table-wrapper {
+  height: 100%;
+}
+
+.backg{
+  display: flex;
+  padding:2em .5em;
+}
+
+.backg img{
+  width: 1.2em;
+  margin-right: .6em;
+  line-height: 1;
+}
+
+.backg p{
+  margin:0;
+  font-weight: 300;
+  color:#285FC2;
+}
+
+.btnG{
+  display: flex;
+  margin-top: 2.5em;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btnG button{
+  width: fit-content;
+  background:#4188E8;
+}
+
+.btnG .ant-input-affix-wrapper{
+  width: fit-content;
+  background: transparent;
+  border: .3px solid #f1f1f1;
+  border-radius: 5px;
+}
+
+.btnG input{
+  height: 1.5em;
+  background: transparent;
+}
+
+
+#btn1{
+  margin-left:1em;
+  border-radius: 5px;
+}
+
+.site-button-ghost-wrapper{
+  background: rgb(190, 200, 200);
+} 
+
+button.ant-tabs-tab-remove {
+  width: fit-content;
+  margin: 0;
+  padding-right: 0;
+}
+
+#btn2{
+  margin-left: .5em;
+  border-radius: 5px;
+}
+
+
+.mapInfoBox{
+  width: 16em;
+  padding: 1em 0;
+  text-align: left;
+  overflow: hidden;
+}
+
+.img-box{
+  width: 16em;
+  height: 8em;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+.mapInfoBox img{
+  width: 100%;
+}
+
+.mapInfoBox h3{
+  font-weight: 900;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  padding-bottom: .7em;
+  border-bottom: .3px solid #d7d7d7;
+}
+
+.mapInfoIcon{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  word-wrap:break-word;
+}
+.mapInfoIcon p{
+  color: rgb(26, 26, 26);
+}
+
+.mapInfoIcon a{
+  display: block;
+  
+}
+
+#wordBreak {
+  word-wrap:break-word;
+  display: block;
+  padding-left: 1px;
+  padding: 0 1px;
+  border-bottom: .1px solid rgb(176, 176, 176);
+}
+
+.mapInfoIcon img{
+  width: 1em;
+  height: 1em;
+  margin-right: .5em;
+}
+
+
+.noteInfo {
+  padding-top: 1em;
+  color: grey;
+  font-size: 0.8em;
+}
+
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, 
+.ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+  padding: 1em .5em;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin: 16px 0.5em;
+}

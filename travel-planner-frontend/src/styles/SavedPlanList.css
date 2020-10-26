@@ -1,0 +1,36 @@
+.searchResult-container {
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.main {
+    display: flex;
+}
+
+.tableContainer {
+    max-width: 100%;
+}
+
+.right-side {
+    width: 100%;
+}
+
+.ant-modal-body{
+    padding-left: 30px;
+    padding-top: 12px;
+}
+
+.jsj button{
+    margin: .5em 0;
+    margin-left:.6em;
+    width: 8em;
+  }
+  
+.ant-modal-title{
+    margin-left: 1em;
+    margin-top: 0.5em;
+}

@@ -1,0 +1,98 @@
+.loginWrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.loginarea{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-image: url("../asset/image/home_pic.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.loginWrapper>img{
+  width: 7em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5em;
+}
+
+.loginBox>h3{
+  font-size: 1.6em;
+}
+
+
+.loginBox{
+  width: 20em;
+  border-radius: 8px;
+  background: #fff;
+  margin: 20% auto;
+  padding: 3.5em 2em;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.input{
+  display: grid;
+  margin-top: 2em;
+  border-radius: 8px;
+  border: .5px solid #b5b5b5;
+}
+
+input{
+  height: 3.5em;
+  border: transparent;
+  background: #e5ecf3;
+  padding: .5em 1em;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#input1{
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: .5px solid #b5b5b5;
+}
+
+
+#input2{
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+button{
+  width:100%;   
+  padding: .8em;
+  border-radius: 8px;
+  border: transparent;
+  background: #4188E8;
+  color: #fff;
+}
+
+.button{
+  margin-top:2em;
+}
+
+.signupLink{
+  display: block;
+  padding-top: 3em;
+  font-size: .9em;
+}
+.signupLink>span{
+  margin-left:.2em;
+  color: #4188E8;
+  font-weight: bold;
+}
+
+#close-login{
+  position: absolute;
+  right: 1.3em;
+  font-size: 1.5em;
+  top: 1em;
+  color: #b5b5b5;
+}
