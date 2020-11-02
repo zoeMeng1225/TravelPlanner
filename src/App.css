@@ -42,7 +42,7 @@ margin-left: 1em;
 
 .home-body{
   height: 100vh;
-  background-image: url("./asset/image/home_pic.jpg;")
+  background-image: url("./asset/image/home_pic.jpg;");
   background-size:cover;
   background-repeat: no-repeat;
 }
