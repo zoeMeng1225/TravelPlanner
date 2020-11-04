@@ -4,21 +4,12 @@ import SearchResult from "./components/SearchResult";
 import LoginForm from "./components/LoginForm";
 import SavedPlans from "./components/SavedPlans";
 import Registration from "./components/Registration";
-<<<<<<< HEAD
-// import {withAuthenticator} from '@aws-amplify/ui-react';
-=======
->>>>>>> ba7a21543d906a85a6feec2c4be21ad96742f9d0
 import Travel_planner_logo from "./asset/image/travel_planner_logo.svg";
 import User_icon from "./asset/image/user.svg";
 import { Layout, Row, Col, Button} from "antd";
 import "./App.css";
 import { BrowserRouter, Route, Router, Switch, Link } from "react-router-dom";
 import history from './history';
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ba7a21543d906a85a6feec2c4be21ad96742f9d0
 
 const { Header, Content } = Layout;
 
