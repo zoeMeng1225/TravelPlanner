@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withGoogleMap, GoogleMap,  Marker, DirectionsRenderer, Polyline, InfoWindow } from 'react-google-maps';
+import { Travel_Plan_BASE_URL } from '../constant';
 import {  GoogleApiWrapper } from 'google-maps-react';
 import axios from 'axios';
 
@@ -223,7 +224,7 @@ export class MapContainer extends Component {
         
         console.log("------->>>>>", newActive)
         if(newActive != null && newActive.place_id !== undefined){
-          const URL = `http://localhost:8080/travelplanner/detail?id=${newActive.place_id}`;
+          const URL = Travel_Plan_BASE_URL + `/detail?id=${newActive.place_id}`;
           axios.get(URL).then((res) => {
             const result = res.data.responseObj.result;
             

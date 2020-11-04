@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "travalplanner0b403c94": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
