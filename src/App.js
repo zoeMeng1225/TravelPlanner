@@ -4,9 +4,6 @@ import SearchResult from "./components/SearchResult";
 import LoginForm from "./components/LoginForm";
 import SavedPlans from "./components/SavedPlans";
 import Registration from "./components/Registration";
-import Amplify from "aws-amplify";
-import config from './aws-exports';
-// import {withAuthenticator} from '@aws-amplify/ui-react';
 import Travel_planner_logo from "./asset/image/travel_planner_logo.svg";
 import User_icon from "./asset/image/user.svg";
 import { Layout, Row, Col, Button} from "antd";
@@ -14,7 +11,7 @@ import "./App.css";
 import { BrowserRouter, Route, Router, Switch, Link } from "react-router-dom";
 import history from './history';
 
-Amplify.configure(config);
+
 
 const { Header, Content } = Layout;
 
